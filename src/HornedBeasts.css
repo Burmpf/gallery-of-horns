@@ -1,0 +1,9 @@
+article{
+    width: 20%;
+    position: relative;
+}
+
+img{
+width: inherit;
+line-height: normal;
+}
