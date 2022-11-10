@@ -26,6 +26,7 @@ class App extends React.Component {
       isModalShown: true,
       selectedBeast: beast
     });
+    
   }
     render() {
       return (
@@ -48,6 +49,5 @@ class App extends React.Component {
     }
     
   };
-
 
 export default App;
