@@ -16,6 +16,7 @@ class HornedBeast extends React.Component {
         this.setState({
             favs: this.state.favs + 1
         })
+        this.props.handleOpenModal()
     }
 
     render() {
