@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import '../SelectedBeast.css';
 
 class SelectedBeast extends React.Component {
     render() {
@@ -26,7 +27,7 @@ class SelectedBeast extends React.Component {
             </Modal.Body>
   
             <Modal.Footer>
-              <Button variant="success">Like</Button>
+              <Button variant="success" onClick={this.props.handleCloseModal}>close</Button>
             </Modal.Footer>
           </Modal>
         </>
