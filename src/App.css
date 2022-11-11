@@ -5,3 +5,13 @@ body{
 h1{
   font-size: 5vw;
 }
+
+Form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 5%;
+  text-align: center;
+  
+}

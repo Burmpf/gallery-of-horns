@@ -13,10 +13,14 @@ class HornedBeast extends React.Component {
     }
 
     handleFav = () => {
+        
+        this.props.handleOpenModal()
+    }
+
+    handleLikes =() => {
         this.setState({
             favs: this.state.favs + 1
         })
-        this.props.handleOpenModal()
     }
 
     render() {
@@ -29,7 +33,7 @@ class HornedBeast extends React.Component {
         <Card.Text>
           {this.props.description}
         </Card.Text>
-        💙 {this.state.favs}
+        <div onClick={this.handleLikes}>💙</div> {this.state.favs}
       </Card.Body>
     </Card>
                 {/* <>
